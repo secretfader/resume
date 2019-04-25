@@ -1,0 +1,15 @@
+{
+  "name": "@secretfader/resume",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "server": "http-server -p 7878 public/",
+    "generate-pdf": "node scripts/generate-pdf.js"
+  },
+  "author": "Nicholas Young <hi@secretfader.com>",
+  "license": "SEE LICENSE IN README.md",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "puppeteer": "^1.13.0"
+  }
+}
