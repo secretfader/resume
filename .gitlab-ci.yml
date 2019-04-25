@@ -1,0 +1,16 @@
+variables:
+  ZOLA_VERSION: "0.6.0"
+  PDF_SERVER: true
+  DEPLOY_PRIME_URL: "http://127.0.0.1:7878"
+
+build:
+  image: node:latest
+  script:
+    - bash scripts/build.sh
+  
+  artifacts:
+    paths:
+      - public/
+
+  only:
+    - master

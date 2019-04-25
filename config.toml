@@ -1,0 +1,86 @@
+# The URL the site will be built for
+base_url = "https://resume.secretfader.com"
+title = "Resume | Nicholas Young"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[extra]
+# Put all your custom variables here
+interests = [
+  "Storytelling",
+  "Amateur Radio",
+  "Cycling",
+  "Photography",
+]
+
+credits = [
+  "Speaker at Nodevember 2014-2015 and ChicagoWebConf 2015",
+  "Open source contributor to Rust, JavaScript, Elixir, and Ruby communities",
+  "Organizer of Colorado Gold Rust",
+  "Member of the Rust Network Services Working Group",
+]
+
+[extra.social.twitter]
+url = "https://twitter.com/secretfader"
+handle = "@secretfader"
+
+[[extra.experiences]]
+date = "December 2015 - ?"
+org = "Uptime Ventures, Ltd."
+title = "Founder, Engineer"
+description = """
+Owner and operator of an engineering consultancy that delivers custom hardware and software solutions, ranging from IoT daemons on embedded platforms to cloud-scale Kubernetes deployments. Current goals include developing a robust networking stack in Rust.
+"""
+
+[[extra.experiences]]
+date = "June 2013 - December 2015"
+org = "The Machine Broadcasting Network"
+title = "Executive Producer"
+description = """
+Frustrated with the cultural trends in radio, I founded The Machine; a fiercely independent and aggressively educational online broadcasting network. Accomplishments include: building a professional, digital studio; producing and engineering over 200 hours of original audio programming; debuting new music from artists such as Matt Wertz and Jars of Clay; and developing a real-time metrics engine to analyze listener data (in Node.js).
+"""
+
+[[extra.experiences]]
+date = "June 2010 - December 2015"
+org = "Original Machine"
+title = "Chief Creative Officer"
+description = """ 
+Artistic consultant, documentarian, filmmaker, audio engineer, and digital strategist at Original Machine, a multidisciplinary production house/marketing agency for bands and small businesses. Additionally, mixed Colin Morris' debut album, and mastered projects for artists such as Brash Flair, Coppertunes, and The July.
+"""
+
+[[extra.experiences]]
+date = "January 2010 - June 2010"
+org = "Mad Mimi"
+title = "Full-stack Engineer"
+description = """ 
+Feature implementation, deployment, and operations for a rapidly growing email marketing startup. Work included developing (and leading) open source strategy; backend development with Ruby on Rails, MySQL, Redis, and Postfix; frontend HTML/CSS/JavaScript; and DevOps.
+"""
+
+[[extra.experiences]]
+date = "August 2007 - January 2010"
+title = "Independent Consultant"
+description = """ 
+Freelance engineer and security consultant. Accomplishments include: guest lectures and substitute teaching at Nashville State Community College; serving on the organizing committee for BarCamp Nashville; and releasing open source PHP libraries (which led to the next position).
+"""
+
+[extra.skills]
+fluent = [
+  "Public speaking",
+  "Creative writing",
+  "Linux/BASH",
+  "Rust",
+  "HTML/CSS",
+  "JavaScript/Node.js",
+  "Digital/Physical Accessibility",
+  "PostgreSQL",
+  "MongoDB",
+  "Elixir/BEAM",
+]
