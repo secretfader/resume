@@ -12,6 +12,6 @@
   "devDependencies": {
     "http-server": "^0.11.1",
     "netlify-cli": "^2.11.19",
-    "puppeteer": "^1.13.0"
+    "puppeteer": "^1.17.0"
   }
 }
