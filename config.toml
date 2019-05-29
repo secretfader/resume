@@ -28,10 +28,6 @@ credits = [
   "Member of the Rust Network Services Working Group",
 ]
 
-[extra.social.twitter]
-url = "https://twitter.com/secretfader"
-handle = "@secretfader"
-
 [[extra.experiences]]
 date = "December 2015 - ?"
 org = "Uptime Ventures, Ltd."
