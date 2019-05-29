@@ -23,7 +23,7 @@ deploy:
   image: node:latest
   script:
     - bash scripts/build.sh
-    - npm run deploy
+    - npm run deploy -- --prod
   artifacts:
     paths:
       - public/
