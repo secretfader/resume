@@ -1,4 +1,5 @@
 node_modules/
 public/
+preview/
 static/processed_images
 zola
