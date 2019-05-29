@@ -3,7 +3,6 @@
 [![CI Status
 Badge](https://gitlab.com/secretfader/resume/badges/master/build.svg)](https://gitlab.com/secretfader/resume)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/secretfader.svg?label=Follow&style=social)](https://twitter.com/secretfader)
 
 The resume of hacker and artist Nicholas Young (a.k.a. "Fader").
 
