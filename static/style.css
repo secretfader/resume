@@ -120,11 +120,11 @@ main > ul li:last-child {
 
 main h3 {
   font-size: 1.4em;
-  margin-bottom: .7em;
+  margin-bottom: .5em;
 }
 
 main h4 {
-  margin-bottom: .5em;
+  margin-bottom: .7em;
   font-weight: 400;
   font-size: 1.1em;
   color: #333;

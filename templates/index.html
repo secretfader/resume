@@ -41,8 +41,8 @@
       <ul>
       {% for experience in config.extra.experiences %}
         <li>
-          <h4 class="date">{{ experience.date }}</h4>
           <h3>{% if experience.org %}{{ experience.org }} &mdash; {% endif %}{{ experience.title }}</h3>
+          <h4 class="date">{{ experience.date }}</h4>
           <p>{{ experience.description }}</p>
         </li>
       {% endfor %}
