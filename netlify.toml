@@ -1,5 +1,2 @@
 [build]
 publish = "public"
-
-[build.environment]
-ZOLA_VERSION = "0.6.0"
