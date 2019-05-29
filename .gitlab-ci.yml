@@ -5,15 +5,27 @@ variables:
   PDF_SERVER: "true"
   DEPLOY_PRIME_URL: "http://127.0.0.1:7878"
 
-build:
+stages:
+  - test
+  - deploy
+
+test:
+  image: node:latest
+  script:
+    - bash scripts/build.sh
+  artifacts:
+    paths:
+      - public/
+  except:
+    - master
+
+deploy:
   image: node:latest
   script:
     - bash scripts/build.sh
     - npm run deploy
-  
   artifacts:
     paths:
       - public/
-
   only:
     - master
