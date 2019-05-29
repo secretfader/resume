@@ -4,12 +4,14 @@
   "version": "0.0.0",
   "scripts": {
     "server": "http-server -p 7878 public/",
-    "generate-pdf": "node scripts/generate-pdf.js"
+    "generate-pdf": "node scripts/generate-pdf.js",
+    "deploy": "netlify deploy"
   },
   "author": "Nicholas Young <hi@secretfader.com>",
   "license": "SEE LICENSE IN README.md",
   "devDependencies": {
     "http-server": "^0.11.1",
+    "netlify-cli": "^2.11.19",
     "puppeteer": "^1.13.0"
   }
 }
