@@ -32,7 +32,7 @@ date = "December 2015 - ?"
 org = "Uptime Ventures, Ltd."
 title = "Founder, Engineer"
 description = """
-Owner and operator of an engineering consultancy that delivers custom hardware and software solutions, ranging from IoT daemons on embedded platforms to cloud-scale Kubernetes deployments. Current goals include developing a robust networking stack in Rust.
+Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Current goals include technical modernization of the desktop environment and enhancing user interface accessibility.
 """
 
 [[extra.experiences]]
