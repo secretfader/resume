@@ -23,6 +23,7 @@ interests = [
 
 credits = [
   "Speaker at Nodevember 2014-2015 and ChicagoWebConf 2015",
+  "Member of the Rust Networking Working Group",
   "Open source contributor to Rust, JavaScript, Elixir, and Ruby communities",
   "Organizer of Colorado Gold Rust",
 ]
@@ -32,7 +33,7 @@ date = "December 2015 - ?"
 org = "Uptime Ventures, Ltd."
 title = "Founder, Engineer"
 description = """
-Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Current goals include technical modernization of the desktop environment and enhancing user interface accessibility.
+Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Current focuses include technical modernization projects utilizing Rust (embedded systems, primarily).
 """
 
 [[extra.experiences]]
@@ -47,7 +48,7 @@ Frustrated with the cultural trends in radio, I founded The Machine; a fiercely 
 date = "June 2010 - December 2015"
 org = "Original Machine"
 title = "Chief Creative Officer"
-description = """ 
+description = """
 Artistic consultant, documentarian, filmmaker, audio engineer, and digital strategist at Original Machine, a multidisciplinary production house/marketing agency for bands and small businesses. Additionally, mixed Colin Morris' debut album, and mastered projects for artists such as Brash Flair, Coppertunes, and The July.
 """
 
@@ -55,14 +56,14 @@ Artistic consultant, documentarian, filmmaker, audio engineer, and digital strat
 date = "January 2010 - June 2010"
 org = "Mad Mimi"
 title = "Full-stack Engineer"
-description = """ 
+description = """
 Feature implementation, deployment, and operations for a rapidly growing email marketing startup. Work included developing (and leading) open source strategy; backend development with Ruby on Rails, MySQL, Redis, and Postfix; frontend HTML/CSS/JavaScript; and DevOps.
 """
 
 [[extra.experiences]]
 date = "August 2007 - January 2010"
 title = "Independent Consultant"
-description = """ 
+description = """
 Freelance engineer and security consultant. Accomplishments include: guest lectures and substitute teaching at Nashville State Community College; serving on the organizing committee for BarCamp Nashville; and releasing open source PHP libraries (which led to the next position).
 """
 
