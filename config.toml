@@ -75,7 +75,6 @@ fluent = [
   "Rust",
   "Typescript",
   "Kubernetes",
-  "Microservices",
   "Python",
   "Data Processing",
   "HTML/CSS",
@@ -85,7 +84,6 @@ fluent = [
   "MongoDB",
   "Redis",
   "NATS",
-  "Kafka",
   "RabbitMQ",
   "Elixir/BEAM",
 ]
