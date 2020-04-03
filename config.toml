@@ -29,11 +29,11 @@ credits = [
 ]
 
 [[extra.experiences]]
-date = "December 2015 - Current"
+date = "December 2015 - February 2020"
 org = "Uptime Ventures, Ltd."
 title = "Founder, Engineer"
 description = """
-Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Current focuses include technical modernization projects utilizing Rust (embedded systems, primarily).
+Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Specific focuses include high-performance I/O, network protocols, embedded devices, and technical modernization projects.
 """
 
 [[extra.experiences]]
@@ -41,7 +41,7 @@ date = "June 2013 - December 2015"
 org = "The Machine Broadcasting Network"
 title = "Executive Producer"
 description = """
-Frustrated with the cultural trends in radio, I founded The Machine; a fiercely independent and aggressively educational online broadcasting network. Accomplishments include: building a professional, digital studio; producing and engineering over 200 hours of original audio programming; debuting new music from artists such as Matt Wertz and Jars of Clay; and developing a real-time metrics engine to analyze listener data (in Node.js).
+Frustrated with the cultural trends in radio, I founded The Machine; a fiercely independent and aggressively educational online broadcasting network. Accomplishments include: building a professional, digital studio; producing and engineering over 200 hours of original audio programming; debuting new music from artists such as Matt Wertz and Jars of Clay; scaling a custom Ruby on Rails CMS, and developing a real-time metrics engine to analyze listener trends (in Node.js).
 """
 
 [[extra.experiences]]
@@ -69,11 +69,11 @@ Freelance engineer and security consultant. Accomplishments include: guest lectu
 
 [extra.skills]
 fluent = [
-  "Public speaking",
-  "Creative writing",
-  "Linux/BASH",
   "Rust",
+  "Ruby",
   "Typescript",
+  "Linux",
+  "Public speaking",
   "Kubernetes",
   "Python",
   "Data Processing",
@@ -84,6 +84,5 @@ fluent = [
   "MongoDB",
   "Redis",
   "NATS",
-  "RabbitMQ",
   "Elixir/BEAM",
 ]
