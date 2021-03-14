@@ -29,6 +29,14 @@ credits = [
 ]
 
 [[extra.experiences]]
+date = "October 2020 - Current"
+org = "First Foundry"
+title = "Senior Software Engineer"
+description = """
+Platform engineering for high growth, security focused clientele, primarily in Rust.
+"""
+
+[[extra.experiences]]
 date = "December 2015 - February 2020"
 org = "Uptime Ventures, Ltd."
 title = "Founder, Engineer"
