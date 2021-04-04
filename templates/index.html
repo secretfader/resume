@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ config.title }}">
   <meta name="twitter:description" content="{{ config.description }}">
-  <meta name="twitter:image" content="{{ resize_image(path="avatar.jpg", width=1024, height=512, op="fill") }}">
+  <meta name="twitter:image" content="{{ resize_image(path=" avatar.jpg", width=1024, height=512, op="fill" ) }}">
   <title>{{ config.title }}</title>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700,900" rel="stylesheet">
-  <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
+  <link href="{{ get_url(path=" style.css") }}" rel="stylesheet">
 </head>
+
 <body>
   <div class="grid">
     <header class="profile">
@@ -31,7 +33,7 @@
         </li>
         <li class="www">
           <a href="https://www.nicholaswyoung.com">
-            nicholawyoung.com
+            nicholaswyoung.com
           </a>
         </li>
       </ul>
@@ -39,33 +41,33 @@
     <main>
       <h2>Professional Experience</h2>
       <ul>
-      {% for experience in config.extra.experiences %}
+        {% for experience in config.extra.experiences %}
         <li>
           <h3>{% if experience.org %}{{ experience.org }} &mdash; {% endif %}{{ experience.title }}</h3>
           <h4 class="date">{{ experience.date }}</h4>
           <p>{{ experience.description }}</p>
         </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
     </main>
     <aside>
       <h2 class="subhead">Core Skills</h2>
       <ul>
-      {% for skill in config.extra.skills.fluent %}
+        {% for skill in config.extra.skills.fluent %}
         <li>{{ skill }}</li>
-      {% endfor %}
+        {% endfor %}
       </ul>
       <h2 class="subhead">Interests</h2>
       <ul>
-      {% for interest in config.extra.interests %}
+        {% for interest in config.extra.interests %}
         <li>{{ interest }}</li>
-      {% endfor %}
+        {% endfor %}
       </ul>
       <h2 class="subhead">Highlights</h2>
       <ul>
-      {% for credits in config.extra.credits %}
+        {% for credits in config.extra.credits %}
         <li>{{ credits }}</li>
-      {% endfor %}
+        {% endfor %}
       </ul>
     </aside>
   </div>
