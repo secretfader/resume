@@ -24,3 +24,10 @@ jobs:
         run: ./scripts/install-zola.sh
       - name: Build site
         run: $HOME/bin/zola build
+      - name: Generate PDF
+        run: npm run generate-pdf
+      - name: Store Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-output
+          path: public/
