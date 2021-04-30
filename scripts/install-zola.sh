@@ -8,7 +8,7 @@ DOWNLOAD_URL=$(curl --silent -H 'Accept: application/json' \
     https://api.github.com/repos/getzola/zola/releases | \
     jq -r "(.[0] |
     (select(.draft == false) | select(.prerelease == false)).assets[] |
-        select(.name | contains(\"extended\")) | select(.name | contains(\"x86_64-unknown-linux-gnu.tar.gz\"))
+        select(.name | contains(\"x86_64-unknown-linux-gnu.tar.gz\"))
     ).browser_download_url"
 )
 
