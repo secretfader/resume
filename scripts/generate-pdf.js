@@ -1,10 +1,10 @@
-const path = require('path');
-const puppeteer = require('puppeteer');
-const http = require('http-server');
+const path = require("path");
+const puppeteer = require("puppeteer");
+const http = require("http-server");
 
 async function createPDF(output) {
   const server = http.createServer({
-    base: path.resolve(__dirname, '../preview'),
+    base: path.resolve(__dirname, "../preview"),
   });
 
   server.listen(7878); // Because Rust is awesome.
@@ -12,21 +12,21 @@ async function createPDF(output) {
   // Create a new instance of Chrome
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   /// Instantiate a page within the browser
   const page = await browser.newPage();
 
   /// Load `public/index.html`
-  await page.goto('http://127.0.0.1:7878/', {
-    waitUntil: 'networkidle0',
+  await page.goto("http://127.0.0.1:7878/", {
+    waitUntil: "networkidle0",
   });
 
   /// Render to PDF
   await page.pdf({
-    path: path.resolve(__dirname, '../public', output),
-    format: 'Letter',
+    path: path.resolve(__dirname, "../public", output),
+    format: "Letter",
   });
 
   /// Shutdown browser instance
@@ -34,4 +34,4 @@ async function createPDF(output) {
   server.close();
 }
 
-createPDF('resume.pdf').catch(console.error);
+createPDF("resume.pdf").catch(console.error);
