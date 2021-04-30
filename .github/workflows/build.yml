@@ -22,10 +22,10 @@ jobs:
         run: npm ci
       - name: Install Zola 
         run: ./scripts/install-zola.sh
-      - name: Build site
-        run: $HOME/bin/zola build
-      - name: Generate PDF
-        run: npm run generate-pdf
+      - name: Build
+        run: ./scripts/build.sh
+        env:
+          DEPLOY_PRIME_URL: https://resume.secretfader.com
       - name: Store Artifacts
         uses: actions/upload-artifact@v2
         with:
