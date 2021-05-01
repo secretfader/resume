@@ -50,7 +50,7 @@ date = "June 2013 - December 2015"
 org = "The Machine Broadcasting Network"
 title = "Executive Producer"
 description = """
-Frustrated with the cultural trends in radio, I founded The Machine; a fiercely independent and aggressively educational online broadcasting network. Accomplishments include: building a professional, digital studio; producing and engineering over 200 hours of original audio programming; debuting new music from artists such as Matt Wertz and Jars of Clay; scaling a custom Ruby on Rails CMS, and developing a real-time metrics engine to analyze listener trends (in Node.js).
+Frustrated with the cultural trends in radio, I founded The Machine; a fiercely educational online broadcasting network. Accomplishments include: building a professional digital studio; producing and engineering over 200 hours of original audio programming; debuting new music from artists such as Matt Wertz and Jars of Clay; scaling a custom Ruby on Rails CMS, and developing a real-time metrics engine to analyze listener trends.
 """
 
 [[extra.experiences]]
@@ -58,7 +58,7 @@ date = "June 2010 - December 2015"
 org = "Original Machine"
 title = "Chief Creative Officer"
 description = """
-Artistic consultant, documentarian, filmmaker, audio engineer, and digital strategist at Original Machine, a multidisciplinary production house/marketing agency for bands and small businesses. Additionally, mixed Colin Morris' debut album, and mastered projects for artists such as Brash Flair, Coppertunes, and The July.
+Artistic consultant, documentarian, filmmaker, audio engineer, and digital strategist at Original Machine, a multidisciplinary production house/marketing agency for bands and small businesses. 
 """
 
 [[extra.experiences]]
