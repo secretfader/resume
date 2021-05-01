@@ -1,7 +1,6 @@
 # Resume
 
-[![CI Status
-Badge](https://gitlab.com/secretfader/resume/badges/master/build.svg)](https://gitlab.com/secretfader/resume)
+[![Build](https://github.com/secretfader/resume/actions/workflows/build.yml/badge.svg)](https://github.com/secretfader/resume/actions/workflows/build.yml)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 The [resume](https://resume.secretfader.com) of engineer, security analyst, event organizer, and public speaker, Nicholas Young.
