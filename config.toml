@@ -42,7 +42,7 @@ date = "December 2015 - February 2020"
 org = "Uptime Ventures, Ltd."
 title = "Founder, Engineer"
 description = """
-Owner and operator of an engineering consultancy that delivers custom hardware and software solutions. Specific focuses include high-performance I/O, network protocols, embedded devices, and technical modernization projects.
+Owner and operator of an engineering consultancy that delivered custom hardware and software solutions with specific focuses on high-performance I/O, network protocols, and embedded platforms. In this role, I became a contributor to the Rust language ecosystem, specifically the Gotham web framework and Rust Async Networking Working Group. I also co-founded Colorado's first Rust-focused conference, Colorado Gold Rust.
 """
 
 [[extra.experiences]]
