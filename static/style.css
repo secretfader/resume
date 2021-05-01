@@ -3,17 +3,29 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -23,10 +35,11 @@ img {
 }
 
 /* Styles for resume.secretfader.com */
-body, html {
-  font-family: 'Fira Sans', sans-serif;
+body,
+html {
+  font-family: "Fira Sans", sans-serif;
   text-rendering: optimizeLegibility;
-  background: #FAFAFA;
+  background: #fafafa;
 }
 
 a {
@@ -34,15 +47,20 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Fira Sans', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fira Sans", sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 900;
 }
 
-h3, h4 {
+h3,
+h4 {
   font-weight: 400;
 }
 
@@ -61,7 +79,7 @@ div.grid {
 
 div.grid h2 {
   font-size: 1.7em;
-  margin: 0 0 .5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 div.grid h2.subhead {
@@ -78,7 +96,7 @@ header.profile {
 
 header.profile h1 {
   font-size: 4em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 header.profile ul {
@@ -120,11 +138,11 @@ main > ul li:last-child {
 
 main h3 {
   font-size: 1.4em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 main h4 {
-  margin-bottom: .7em;
+  margin-bottom: 0.7em;
   font-weight: 400;
   font-size: 1.1em;
   color: #333;
@@ -162,8 +180,9 @@ p.message {
  * Media Queries
  */
 @media screen {
-  html, body {
-    background: #FAFAFA;
+  html,
+  body {
+    background: #fafafa;
     font-size: 16px;
   }
 
@@ -211,9 +230,12 @@ p.message {
 }
 
 @media print {
-  .screen-only { display: none }
+  .screen-only {
+    display: none;
+  }
 
-  html, body {
+  html,
+  body {
     font-size: 12px;
   }
 
