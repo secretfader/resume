@@ -18,8 +18,8 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: '14'
-      - name: Install Zola 
-        run: ./scripts/install-zola.sh
+      - name: Install Dependencies
+        run: ./scripts/setup.sh
       - name: Build
         run: ./scripts/build.sh
         env:
