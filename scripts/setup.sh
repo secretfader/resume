@@ -20,6 +20,3 @@ curl -sSL $DOWNLOAD_URL | tar -xzf - -C $HOME/bin
 
 # Install npm dependencies
 npm ci
-
-# Lastly, export the newly-extended $PATH
-export PATH=$PATH:$HOME/bin
