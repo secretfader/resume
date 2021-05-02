@@ -176,6 +176,17 @@ p.message {
   margin: 3.5em;
 }
 
+div.icons {
+  text-align: center;
+  margin-top: -1.5em;
+  margin-bottom: 3.5em;
+}
+
+img.icon {
+  width: 1.2em;
+  height: 1.2em;
+}
+
 /**
  * Media Queries
  */
