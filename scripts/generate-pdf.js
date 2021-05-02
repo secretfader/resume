@@ -12,7 +12,6 @@ async function createPDF(output) {
   // Create a new instance of Chrome
   const browser = await puppeteer.launch({
     headless: true,
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
   /// Instantiate a page within the browser
