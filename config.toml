@@ -34,7 +34,7 @@ date = "October 2020 - Current"
 org = "First Foundry"
 title = "Senior Software Engineer"
 description = """
-Platform engineering for high-growth, security-focused clients, primarily in Rust and Solidity. Primary responsibilities include: service design, development, and deployment; stakeholder management; and integrating multiple blockchain networks.
+Platform engineering for high-growth, security-focused clients, primarily in Rust and Solidity. Primary responsibilities include: service design, development, and deployment; stakeholder management; and integrating blockchain clients with other infrastructure.
 """
 
 [[extra.experiences]]
