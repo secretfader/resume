@@ -4,18 +4,18 @@
 set -e
 
 # Create a reusable filter chain
-RELEASE_FILTER="(select(.draft == false) | select(.prerelease == false)).assets[] | \
-    select(.name | contains(\"x86_64-unknown-linux-gnu\"))"
+RELEASE_FILTER="(.[0] | (select(.draft == false) | select(.prerelease == false)).assets[] | \
+    select(.name | contains(\"x86_64-unknown-linux-gnu\"))).browser_download_url"
 
 # Retrieve the latest stable release of Zola from GitHub
 ZOLA_URL=$(curl --silent -H 'Accept: application/json' \
     https://api.github.com/repos/getzola/zola/releases | \
-    jq -r "(.[0] | $RELEASE_FILTER).browser_download_url"
+    jq -r "$RELEASE_FILTER"
 )
 
 S3UTIL_URL=$(curl --silent -H 'Accept: application/json' \
     https://api.github.com/repos/ryankurte/s3-util/releases | \
-    jq -r "(.[0] | $RELEASE_FILTER).browser_download_url"
+    jq -r "$RELEASE_FILTER"
 )
 
 # Make a directory at $HOME/bin to contain downloaded binaries
