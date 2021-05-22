@@ -4,4 +4,4 @@ command = "scripts/build.sh"
 
 [build.environment]
 ZOLA_VERSION = "0.13.0"
-NODE_VERSION = "14"
+NODE_VERSION = "16"
