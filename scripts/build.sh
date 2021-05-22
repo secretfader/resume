@@ -7,5 +7,4 @@ DEPLOY_PRIME_URL="${DEPLOY_PRIME_URL:=https://resume.secretfader.com}"
 
 # Build site and generate printable PDF
 zola build -u $DEPLOY_PRIME_URL
-zola build -u http://127.0.0.1:$PORT -o preview/ &> /dev/null
-npm run generate-pdf
+zola build -u http://127.0.0.1:$PORT -o preview/ && npm run generate-pdf
