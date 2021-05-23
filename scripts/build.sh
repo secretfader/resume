@@ -3,6 +3,7 @@
 # Extend $PATH to include locally-installed binaries
 PATH=$HOME/bin:$PATH:$(npm bin)
 PORT=7878
+ZOLA_ENVIRONMENT="${ZOLA_ENVIRONMENT:=production}"
 DEPLOY_PRIME_URL="${DEPLOY_PRIME_URL:=https://resume.secretfader.com}"
 
 # Build site and generate printable PDF
