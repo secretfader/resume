@@ -19,11 +19,11 @@ S3UTIL_URL=$(curl -sS -H 'Accept: application/json' \
 )
 
 # Make a directory at $HOME/bin to contain downloaded binaries
-mkdir -p $HOME/bin
+mkdir -p $HOME/.local/bin
 
 # Download binaries for Zola and S3 Util, extracting the archive contents to $HOME/bin
-curl -sSL $ZOLA_URL | tar -xzf - -C $HOME/bin
-curl -sSL $S3UTIL_URL | tar -xzf - -C $HOME/bin
+curl -sSL $ZOLA_URL | tar -xzf - -C $HOME/.local/bin
+curl -sSL $S3UTIL_URL | tar -xzf - -C $HOME/.local/bin
 
 # Install npm dependencies
 npm ci
