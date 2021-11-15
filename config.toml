@@ -77,12 +77,12 @@ description = """
 Feature implementation, deployment, and operations for a rapidly growing email marketing startup. Work included developing (and leading) open source strategy; backend development with Ruby on Rails, MySQL, Redis, and Postfix; frontend HTML/CSS/JavaScript; and DevOps.
 """
 
-[[extra.experiences]]
-date = "August 2007 - January 2010"
-title = "Independent Consultant"
-description = """
-Freelance engineer and security consultant. Accomplishments include: guest lectures and substitute teaching at Nashville State Community College; serving on the organizing committee for BarCamp Nashville; and releasing open source PHP libraries (which led to the next position).
-"""
+#[[extra.experiences]]
+#date = "August 2007 - January 2010"
+#title = "Independent Consultant"
+#description = """
+#Freelance engineer and security consultant. Accomplishments include: guest lectures and substitute teaching at Nashville State Community College; serving on the organizing committee for BarCamp Nashville; and releasing open source PHP libraries (which led to the next position).
+#"""
 
 [extra.skills]
 fluent = [
