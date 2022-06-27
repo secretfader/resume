@@ -32,7 +32,7 @@ credits = [
 [[extra.experiences]]
 date = "October 2021 - Current"
 org = "Nodle"
-title = "DevOps Engineer"
+title = "Senior DevOps Engineer"
 description = """
 Blockchain operations, security, and Rust engineering for Nodle; the IoT network of Polkadot.
 """
