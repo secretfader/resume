@@ -27,7 +27,7 @@ At the time of this writing, site artifacts are currently hosted and delivered b
 
 ## License
 
-Copyright 2019-2022 Nicholas Young. All rights reserved.
+Copyright 2019-2023 Nicholas Young. All rights reserved.
 
 Markup and design may be used under the [3-Clause BSD License](LICENSE). However, republishing content without express permission is a violation of applicable laws.
 
