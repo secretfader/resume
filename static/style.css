@@ -72,6 +72,7 @@ div.grid {
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
+  margin-bottom: 2.5em;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 20px;
