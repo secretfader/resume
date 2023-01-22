@@ -30,11 +30,19 @@ credits = [
 ]
 
 [[extra.experiences]]
-date = "October 2021 - Current"
+date = "September 2022 - Current"
+org = "Nodle"
+title = "Director of Information Security and DevOps"
+description = """
+Cross-team organization lead for DevOps and Security Best Practices. Highlights include: managing external audit partners, threat research, policy development, and managing the daily technology needs of a 50-person startup.
+"""
+
+[[extra.experiences]]
+date = "October 2021 - September 2022"
 org = "Nodle"
 title = "Senior DevOps Engineer"
 description = """
-Blockchain operations, security, and Rust engineering for Nodle; the IoT network of Polkadot.
+Blockchain operations, security, and Rust engineering for Nodle; the IoT network of Polkadot. Highlights include: launching the network's Eden parachain and launching metrics infrastructure tools for the entire ecosystem with our partners.
 """
 
 [[extra.experiences]]
