@@ -1,6 +1,5 @@
 # Resume :crab: :computer: :radio:
 
-[![Build](https://github.com/secretfader/resume/actions/workflows/build.yml/badge.svg)](https://github.com/secretfader/resume/actions/workflows/build.yml)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 The [resume](https://resume.secretfader.com) of engineer, security nerd, event organizer, and public speaker, [Nicholas Young][www].
@@ -11,9 +10,9 @@ Baseline system requirements for developing in this repository are as follows:
 
 * [Git][git]
 * [Git LFS][git-lfs]
-* [Fedora][fedora] or [Ubuntu][ubuntu] Linux
 * [Node.js][nodejs]
 * [Zola][zola]
+* Linux or macOS
 
 If you're looking for the pre-build script that installs Zola and various Node dependencies, read [`scripts/setup.sh`](scripts/setup.sh).
 
@@ -34,7 +33,5 @@ Markup and design may be used under the [3-Clause BSD License](LICENSE). However
 [www]: https://secretfader.com
 [git]: https://github.com/git/git
 [git-lfs]: https://github.com/git-lfs/git-lfs
-[fedora]: https://getfedora.org
-[ubuntu]: https://ubuntu.com
 [nodejs]: https://github.com/nodejs/node
 [zola]: https://github.com/getzola/zola
