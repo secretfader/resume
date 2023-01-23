@@ -98,7 +98,9 @@ fluent = [
   "Curriculum Development",
   "Event Management",
   "Network Security",
+  "Radio-Frequency Engineering",
   "Linux",
+  "Apple Systems Administration",
   "Public Speaking",
   "Kubernetes",
   "Typescript",
@@ -108,5 +110,4 @@ fluent = [
   "Digital/Physical Accessibility",
   "CockroachDB",
   "PostgreSQL",
-  "Elixir/BEAM",
 ]
