@@ -95,18 +95,18 @@ Feature implementation, deployment, and operations for a rapidly growing email m
 [extra.skills]
 fluent = [
   "Rust",
-  "Typescript",
+  "Curriculum Development",
+  "Event Management",
+  "Network Security",
   "Linux",
   "Public Speaking",
   "Kubernetes",
-  "Python",
+  "Typescript",
   "Data Processing",
   "HTML/CSS",
   "JavaScript/Node.js",
   "Digital/Physical Accessibility",
   "CockroachDB",
   "PostgreSQL",
-  "Redis",
-  "NATS",
   "Elixir/BEAM",
 ]
