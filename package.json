@@ -11,7 +11,7 @@
   "license": "SEE LICENSE IN README.md",
   "devDependencies": {
     "http-server": "^0.12.3",
-    "netlify-cli": "^3.30.3",
+    "netlify-cli": "^12.12.0",
     "puppeteer": "^9.1.1"
   }
 }
