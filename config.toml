@@ -15,12 +15,7 @@ build_search_index = false
 
 [extra]
 # Put all your custom variables here
-interests = [
-  "Storytelling",
-  "Amateur Radio",
-  "Cycling",
-  "Photography",
-]
+interests = ["Storytelling", "Amateur Radio", "Cycling", "Photography"]
 
 credits = [
   "Speaker at Nodevember 2014-2015 and ChicagoWebConf 2015",
@@ -30,7 +25,7 @@ credits = [
 ]
 
 [[extra.experiences]]
-date = "September 2022 - Current"
+date = "September 2022 - August 2023"
 org = "Nodle"
 title = "Director of Information Security and DevOps"
 description = """
