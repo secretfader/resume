@@ -37,7 +37,7 @@ date = "October 2021 - September 2022"
 org = "Nodle"
 title = "Senior DevOps Engineer"
 description = """
-Blockchain operations, security, and Rust engineering for Nodle; the IoT network of Polkadot. Highlights include: launching the network's Eden parachain and launching metrics infrastructure tools for the entire ecosystem with our partners.
+Blockchain operations, security, and Rust engineering for Nodle; the IoT network of Polkadot. Highlights include: launching the network's Eden parachain, creating an organization-level CI/CD pipeline for both code and infrastructure, and implementing metrics infrastructure tools for the entire ecosystem with our partners at OnFinality.
 """
 
 [[extra.experiences]]
