@@ -25,6 +25,14 @@ credits = [
 ]
 
 [[extra.experiences]]
+date = "October 2023 - Current"
+org = "Lit Protocol"
+title = "Senior DevOps Engineer"
+description = """
+Development, maintenance, and support of a custom Linux-based Trusted Execution Environment software stack targeting AMD SEV-SNP. Tasks include kernel compilation and modification, firmware verification and maintenance, and communication with multiple hardware and software vendors to support roll-out of the entire stack.
+"""
+
+[[extra.experiences]]
 date = "September 2022 - August 2023"
 org = "Nodle"
 title = "Director of Information Security and DevOps"
