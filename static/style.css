@@ -195,7 +195,7 @@ img.icon {
   html,
   body {
     background: #fafafa;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   p {
@@ -208,6 +208,10 @@ img.icon {
   header.profile {
     display: flex;
     flex-direction: column;
+  }
+
+  header.profile h1 {
+    font-size: 3em;
   }
 
   header.profile ul {
